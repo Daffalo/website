@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #a27676;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.output-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f0f0f0;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#password {
+    border: none;
+    background: transparent;
+    flex-grow: 1;
+    font-size: 16px;
+    outline: none;
+    padding: 5px;
+}
+
+#copy-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#copy-btn:hover {
+    background: #45a049;
+}
+
+.options {
+    text-align: left;
+    font-size: 14px;
+}
+
+.options label {
+    display: block;
+    margin: 5px 0;
+}
+
+#generate {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#generate:hover {
+    background: #0056b3;
+}
