@@ -1,0 +1,25 @@
+
+header{
+    
+}
+h1{
+    color: rgb(180, 163, 163);
+}
+body{
+    background-color: #285141;
+}
+#p1{
+    color: pink;
+}
+#p2{
+    color: aquamarine;
+}
+#p3{
+    color: #c783c1;
+}
+#p4{
+    color: rgb(163, 80, 83);
+}
+h1{
+    text-shadow: 1px 3px 4px red;
+}

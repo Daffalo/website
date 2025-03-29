@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(109, 75, 24);
+    color: #edfff2;
+    Arial, sans-serif;
+    font-size: 20px;
+    margin: 1;
+    padding: 1;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+table{
+    border:solid black 2px;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid;
+}
+td:first-child {
+    background-color: #4da3ae;
+    color: black;
+    font-weight: bold;
+}
+th{
+    color: black;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="form.css"> <!-- Link to external CSS file -->
+        <title>Registration Form</title>
+    
+    </head>
+
+    <body>
+        <h1>CREATE YOUR ACCOUNT</h1>
+        <h2>Presonal Information</h2>
+        <form action="/reister" method="post">
+            <div>
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="username" minlength="5" maxlength="18" required>
+            </div><br>
+            <div>
+                <label for="password">password:</label>
+                <input type="password" id="password" placeholder="password" minlength="5" maxlength="18" required>
+            </div><br>
+            <div>
+                <label for="Email">Email:</label>
+                <input type="email" id="email" placeholder="email" minlength="5" maxlength="18" required>
+            </div><br>
+            <div>
+                <label for="D.O.B">D.O.B:</label>
+                <input type="date" id="D.O.B">
+            </div><br>
+            <div>
+                <label for="Phone Number">Phone Number:</label>
+                <input type="tel" id="Phone" placeholder="(+234 803 4567 890)" pattern="[0-10](3)[0-10](4)[0-10](3)">
+            </div><br>
+            <div>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" min="0" max="99" value="1">
+            </div><br>
+            <div>
+                <label for="title">Title:</label>
+                <label for="title">MR</label>
+                <input type="radio" id="MR" value="MR" name="title">
+                <label for="title">MRS</label>
+                <input type="radio" id="MRS" value="MRS" name="title">
+                <label for="title">Dr.</label>
+                <input type="radio" id="Dr" value="Dr" name="title">
+                <label for="title">Phd</label>
+                <input type="radio" id="Phd" value="Phd" name="title">
+            </div><br>
+            <div>
+                <label for="payment">Payment:</label>
+                <select id="payment">
+                    <option value="Master card">Master card</option>
+                    <option value="Verve">Verve</option>
+                    <option value="visa"> Visa</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="subscribe">subscribe</label>
+                <input type="checkbox" id="subscribe">
+            </div><br>
+            <div>
+                <label for="comment">comment</label>
+                <textarea id="comment" rows="4" cols="40"></textarea>
+            </div><br>
+            <div>
+                <label for="file">file</label>
+                <input type="file" id="file" accept="image/jpeg, image/png">
+            </div><br>
+            <div>
+                
+            </div>
+            <div>
+                <input type="submit">
+            </div><br>
+            <div>
+                <input type="reset">
+            </div>
+            <div>
+                <p> To Sign in </p>
+                
+            </div>
+           
+        </form>
+
+    </body>
+</html>
